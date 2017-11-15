@@ -1,0 +1,27 @@
+{
+  "port":8081,
+  "mode":"local",
+  "api":[
+    {
+      "path":"/login",
+      "handler":"com.vimensa.apis.handlers.LoginHandler",
+      "isPublic":true,
+      "roles":[],
+      "method":"POST"
+    },
+    {
+      "path":"/register",
+      "handler":"com.vimensa.apis.handlers.RegisterHandler",
+      "isPublic":true,
+      "roles":[],
+      "method":"POST"
+    },
+    {
+      "path":"/news",
+      "handler":"com.vimensa.apis.handlers.GetNewsHandler",
+      "isPublic":true,
+      "roles":[],
+      "method":"GET"
+    }
+  ]
+}
